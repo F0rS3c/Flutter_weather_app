@@ -1208,7 +1208,7 @@ void getIP() async {
     }
   }
   _getWeather() async {
-    String url ="https://api.openweathermap.org/data/2.5/forecast?q=rabat&appid=a488d0e105cae3c43e7655449b27b1c3";
+    String url ="https://api.openweathermap.org/data/2.5/forecast?q=rabat&appid=";
     print(url);
     http.get(Uri.parse(url))
         .then((response){
